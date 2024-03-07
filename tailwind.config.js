@@ -26,7 +26,7 @@ module.exports = {
       'md': { 'min': '768px', 'max': '1023px' },
       'lg': { 'min': '1024px', 'max': '1279px' },
       'xl': { 'min': '1500px', 'max': '1700px' },
-      '2xl': { 'min': '1800px' },
+      '2xl': { 'min': '2000px' },
     },
   },
   plugins: [],

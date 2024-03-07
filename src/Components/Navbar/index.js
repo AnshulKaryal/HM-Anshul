@@ -17,14 +17,14 @@ export default function Navbar(){
             <div className='flex justify-center items-center space-x-3'>
                 <div className="w-32  h-8 flex items-center border rounded">
                     <select onChange={(e)=>handleChange(e)} className="w-full h-full pl-2 bg-transparent text-[#4E5566] outline-none">
-                        <option value='/' selected >Browse</option>
-                        <option value='/courses?category=full-stack-developer'>Full Stack Development</option>
-                        <option value='/courses?category=ai&ml'>Ai & Ml</option>
-                        <option value='/courses?category=design'>Design</option>
-                        <option value='/courses?category=electric-vehicle-design'>Electric Vehicle Design</option>
-                        <option value='/courses?category=data-science'>Data Science</option>
-                        <option value='/courses?category=hydro-carbon'>Hydro Carbon</option>
-                        <option value='/courses?category=cyber-security'>Cyber Security</option>
+                        <option className='text-xs' value='/' selected >Browse</option>
+                        <option className='text-xs' value='/courses?category=full-stack-developer'>Full Stack Development</option>
+                        <option className='text-xs' value='/courses?category=ai&ml'>Ai & Ml</option>
+                        <option className='text-xs' value='/courses?category=design'>Design</option>
+                        <option className='text-xs' value='/courses?category=electric-vehicle-design'>Electric Vehicle Design</option>
+                        <option className='text-xs' value='/courses?category=data-science'>Data Science</option>
+                        <option className='text-xs' value='/courses?category=hydro-carbon'>Hydro Carbon</option>
+                        <option className='text-xs' value='/courses?category=cyber-security'>Cyber Security</option>
                     </select>
                 </div>
                 <div className="w-[350px] h-8 relative font-mons">

@@ -13,6 +13,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
     padding: 0 40px;
+    justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 1300px){
