@@ -6,6 +6,7 @@ import Companies from '../companies/Company'
 import CourseFeatures from '../CourseFeatures/CourseFeatures'
 import Testimonials from '../Testimonials'
 import Our_features from '../Our_features'
+import TestimonialNew from '../TestimonialNew/TestimonilNew'
 // import {Whatsapp  from '../../Assests/Icons/whatsapp.png'
 // import {Youtube } from '../../Assests/Icons/youtube.png'
 // import {Linkedin } from '../../Assests/Icons/linkedin.png'
@@ -59,6 +60,6 @@ export default function Home(){
     <Companies/>
     <CourseFeatures/>
     <Our_features/>
-    <Testimonials />
+    <TestimonialNew />
     </>)
 }

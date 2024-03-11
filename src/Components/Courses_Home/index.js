@@ -113,7 +113,7 @@ setBgColor(color[id])
                         
        
         {
-            Courses.map((item,ind)=>{
+            Courses?.map((item,ind)=>{
                 return(<>
                 <SplideSlide key={ind}>                                                    
             <div className='relative h-[360px] w-[300px] shadow-lg bg-white front cursor-pointer'>
