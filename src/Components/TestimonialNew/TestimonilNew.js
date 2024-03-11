@@ -4,8 +4,8 @@ export default function TestimonialNew(){
     return (
         <div className="h-[650px] w-full flex flex-col items-center">
             <div className="bg-[#FAEFD9] w-[80%] h-[90%] flex  items-center justify-center">
-                <button className="flex justify-center ">
-                    <img className="w-[30px] " src="../Icons/leftarrowtest.svg"/>
+                <button>
+                    <img className="w-[30px]" src="../Icons/leftarrowtest.svg"/>
                 </button>
                 <div className="bg-white w-[85%] h-[80%] flex items-center justify-between p-6 relative">
                     <div className="w-[30%] h-full">
